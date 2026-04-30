@@ -6,7 +6,7 @@ const pets = [
     species: '灰色蓝猫',
     personality: '安静、聪明、略带高冷，熟悉之后会用很轻的方式撒娇。',
     role: '猫咪馆的银灰馆长，负责审阅每一束阳光是否足够柔软。',
-    image: '/SKINS/images/ershi.png',
+    image: import.meta.env.BASE_URL + 'images/ershi.png',
     accent: 'moon',
   },
   {
@@ -14,7 +14,7 @@ const pets = [
     species: '玳瑁猫',
     personality: '活泼机警，观察力很强，喜欢把家里的动静全部收入眼底。',
     role: '猫咪馆的巡逻骑士，守护所有纸箱、窗台和晚饭时间。',
-    image: '/SKINS/images/huangli.png',
+    image: import.meta.env.BASE_URL + 'images/huangli.png',
     accent: 'amber',
   },
   {
@@ -22,7 +22,7 @@ const pets = [
     species: '银白猫',
     personality: '温柔亲人，像一团会呼吸的奶油云，擅长把房间变安静。',
     role: '猫咪馆的云朵收藏家，专门保管柔软、梦境和被窝边角。',
-    image: '/SKINS/images/naizuier.png',
+    image: import.meta.env.BASE_URL + 'images/naizuier.png',
     accent: 'cream',
   },
 ]
